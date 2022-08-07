@@ -1,148 +1,853 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<!-- <body>
+  </head>
+  <!-- <body>
     <h1>
         Iframe
     </h1>
     <iframe height="1300" width="100%" src="http://localhost:5500/" title="W3Schools Free Online Web Tutorials"></iframe>
 </body> -->
 
-<body class="bg-white header-fixed-inner special-page special-skin-body no-bg-color"><section class="container"><div class="grid-12"><div class="bg-white padding-bottom10 padding-top10 text-center"><div class="inline-block ad-slot"><div class="text-right font11 text-medium-grey">Ad</div><div id="div-gpt-ad-1396440966236-2" data-load-immediate="true" class="add-slot-top"></div></div></div></div><div class="clear"></div></section><div class="clear"></div><section class="bg-light-grey padding-top10 padding-bottom20 no-bg-color"><div class="container"><div class="grid-12"><div class="breadcrumb margin-bottom15"><ul class="special-skin-text"><li><a href="/">Home</a></li><li><span class="fa fa-angle-right margin-right10"></span><a href="/used-cars/">Used Cars</a></li><li><span class="fa fa-angle-right margin-right10"></span>Car Valuation</li></ul><div class="clear"></div></div><h1 class="font30 text-black special-skin-text">Used Car Valuation</h1><div class="border-solid-bottom margin-top10 margin-bottom15"></div></div><div class="clear"></div><div class="grid-8"><div class="search-right-price content-box-shadow content-inner-block-10"><div class="left-grid"><div class="gray-block-top"><h2 class="car-info-header">Used Car Price Calculator</h2><div class="text-grey"></div><div class="mid-box"><form><div class = "val-table"><div class="display-row"><div class="dropdown-col display-cell">Manufacturing Year </div><div class="display-cell"><div class="form-control-box inline-block year-selection"><span class="select-box fa fa-angle-down"></span><label for="cmbYear"></label><select name="cmbYear" id="cmbYear" class="form-control select-box" ><option selected="selected" value="0">--Select Year--</option>
-    <option value="2022">2022</option>
-    <option value="2021">2021</option>
-    <option value="2020">2020</option>
-    <option value="2019">2019</option>
-    <option value="2018">2018</option>
-    <option value="2017">2017</option>
-    <option value="2016">2016</option>
-    <option value="2015">2015</option>
-    <option value="2014">2014</option>
-    <option value="2013">2013</option>
-    <option value="2012">2012</option>
-    <option value="2011">2011</option>
-    <option value="2010">2010</option>
-    <option value="2009">2009</option>
-    <option value="2008">2008</option>
-    <option value="2007">2007</option>
-    <option value="2006">2006</option>
-    <option value="2005">2005</option>
-    <option value="2004">2004</option>
-    <option value="2003">2003</option>
-    <option value="2002">2002</option>
-    <option value="2001">2001</option>
-    <option value="2000">2000</option>
-    <option value="1999">1999</option>
-    <option value="1998">1998</option>
-</select></div><span id="spnYear" class="error"></span></div></div><div class="display-row"><div class="display-cell cmb-month-cell">Manufacturing Month </div><div class="display-cell"><div class="form-control-box inline-block month-selection"><span class="select-box fa fa-angle-down"></span><label for="cmbMonth"></label><select name="cmbMonth" id="cmbMonth" class="form-control select-box" ><option selected="selected" value="0">--Select Month--</option><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select></div><span id="spnMonth" class="error"></span></div></div><div class="display-row"><div class="display-cell">Make</div><div class="display-cell"><div class="form-control-box inline-block make-selection"><span class="select-box fa fa-angle-down"></span><label for="cmbMake"></label><select name="cmbMake" id="cmbMake" disabled="disabled" class="aspNetDisabled form-control drpClass select-box" ><option selected="selected" value="0">--Select Make--</option>
-</select><div id="ddlMakeDiv" class="ddl-make-div"></div></div><span id="spnMake" class="error"></span></div></div><div class="display-row"><div class="display-cell">Model</div><div class="display-cell"><div class="form-control-box inline-block model-selection"><span class="select-box fa fa-angle-down"></span><label for="cmbModel"></label><select name="cmbModel" id="cmbModel" disabled="disabled" class="aspNetDisabled form-control drpClass select-box" ><option selected="selected" value="0">--Select Model--</option>
-</select></div><span id="spnModel" class="error"></span></div></div><div class="display-row"><div class="display-cell">Version</div><div class="display-cell"><div class="form-control-box inline-block version-selection"><span class="select-box fa fa-angle-down"></span><label for="cmbVersion"></label><select name="cmbVersion" id="cmbVersion" disabled="disabled" class="aspNetDisabled form-control drpClass select-box" ><option selected="selected" value="0">--Select Version--</option>
-</select></div><span id="spnVersion" class="error"></span></div></div><div class="display-row"><div class="display-cell">City</div><div class="display-cell"><div class="form-control-box inline-block city-selection"><span class="select-box fa fa-angle-down"></span><label for="cmbValuationCity"></label><select name="cmbValuationCity" id="cmbValuationCity" class="form-control drpClass select-box" >
-        <option value="0">--Select City--</option><option value="1">Mumbai</option><option value="2">Bangalore</option><option value="9">Kochi</option><option value="10">New Delhi</option><option value="12">Pune</option><option value="13">Navi Mumbai</option><option value="40">Thane</option><option value="105">Hyderabad</option><option value="128">Ahmedabad</option><option value="176">Chennai</option><option value="198">Kolkata</option><option value="224">Noida</option><option value="225">Ghaziabad</option><option value="244">Chandigarh</option><option value="246">Gurgaon</option><option value="273">Faridabad</option>
-        <option value="-1">Other</option>
-</select></div><span id="spnValueCity" class="error"></span></div></div>
-<div class="display-row select-state" id="selectState"><div class="dropdown-col display-cell">State</div><div class="display-cell"><div class="form-control-box inline-block other-state-selection"><label for="cmbState"></label><select name="cmbState" id="cmbState" class="form-control drpClass select-box"><option value="0">--Select State--</option>
-                     
-                    </select></div><span id="spnState" class="error"></span></div></div><div class="display-row city-by-state" id="cityByState"><div class="display-cell">City</div><div class="display-cell"><div class="form-control-box inline-block other-city-selection"><label for="cmbCity"></label><select name="cmbCity" id="cmbCity" class="aspNetDisabled form-control drpClass select-box"><option value="0">--Select City--</option>
+  <body
+    class="bg-white header-fixed-inner special-page special-skin-body no-bg-color"
+  >
+    <section class="container">
+      <div class="grid-12">
+        <div class="bg-white padding-bottom10 padding-top10 text-center">
+          <div class="inline-block ad-slot">
+            <div class="text-right font11 text-medium-grey">Ad</div>
+            <div
+              id="div-gpt-ad-1396440966236-2"
+              data-load-immediate="true"
+              class="add-slot-top"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </section>
+    <div class="clear"></div>
+    <section class="bg-light-grey padding-top10 padding-bottom20 no-bg-color">
+      <div class="container">
+        <div class="grid-12">
+          <div class="breadcrumb margin-bottom15">
+            <ul class="special-skin-text">
+              <li><a href="/">Home</a></li>
+              <li>
+                <span class="fa fa-angle-right margin-right10"></span
+                ><a href="/used-cars/">Used Cars</a>
+              </li>
+              <li>
+                <span class="fa fa-angle-right margin-right10"></span>Car
+                Valuation
+              </li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+          <h1 class="font30 text-black special-skin-text">
+            Used Car Valuation
+          </h1>
+          <div class="border-solid-bottom margin-top10 margin-bottom15"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="grid-8">
+          <div
+            class="search-right-price content-box-shadow content-inner-block-10"
+          >
+            <div class="left-grid">
+              <div class="gray-block-top">
+                <h2 class="car-info-header">Used Car Price Calculator</h2>
+                <div class="text-grey"></div>
+                <div class="mid-box">
+                  <form>
+                    <div class="val-table">
+                      <div class="display-row">
+                        <div class="dropdown-col display-cell">
+                          Manufacturing Year
+                        </div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block year-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="cmbYear"></label
+                            ><select
+                              name="cmbYear"
+                              id="cmbYear"
+                              class="form-control select-box"
+                            >
+                              <option selected="selected" value="0">
+                                --Select Year--
+                              </option>
+                              <option value="2022">2022</option>
+                              <option value="2021">2021</option>
+                              <option value="2020">2020</option>
+                              <option value="2019">2019</option>
+                              <option value="2018">2018</option>
+                              <option value="2017">2017</option>
+                              <option value="2016">2016</option>
+                              <option value="2015">2015</option>
+                              <option value="2014">2014</option>
+                              <option value="2013">2013</option>
+                              <option value="2012">2012</option>
+                              <option value="2011">2011</option>
+                              <option value="2010">2010</option>
+                              <option value="2009">2009</option>
+                              <option value="2008">2008</option>
+                              <option value="2007">2007</option>
+                              <option value="2006">2006</option>
+                              <option value="2005">2005</option>
+                              <option value="2004">2004</option>
+                              <option value="2003">2003</option>
+                              <option value="2002">2002</option>
+                              <option value="2001">2001</option>
+                              <option value="2000">2000</option>
+                              <option value="1999">1999</option>
+                              <option value="1998">1998</option>
+                            </select>
+                          </div>
+                          <span id="spnYear" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row">
+                        <div class="display-cell cmb-month-cell">
+                          Manufacturing Month
+                        </div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block month-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="cmbMonth"></label
+                            ><select
+                              name="cmbMonth"
+                              id="cmbMonth"
+                              class="form-control select-box"
+                            >
+                              <option selected="selected" value="0">
+                                --Select Month--
+                              </option>
+                              <option value="1">Jan</option>
+                              <option value="2">Feb</option>
+                              <option value="3">Mar</option>
+                              <option value="4">Apr</option>
+                              <option value="5">May</option>
+                              <option value="6">Jun</option>
+                              <option value="7">Jul</option>
+                              <option value="8">Aug</option>
+                              <option value="9">Sep</option>
+                              <option value="10">Oct</option>
+                              <option value="11">Nov</option>
+                              <option value="12">Dec</option>
+                            </select>
+                          </div>
+                          <span id="spnMonth" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row">
+                        <div class="display-cell">Make</div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block make-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="cmbMake"></label
+                            ><select
+                              name="cmbMake"
+                              id="cmbMake"
+                              disabled="disabled"
+                              class="aspNetDisabled form-control drpClass select-box"
+                            >
+                              <option selected="selected" value="0">
+                                --Select Make--
+                              </option>
+                            </select>
+                            <div id="ddlMakeDiv" class="ddl-make-div"></div>
+                          </div>
+                          <span id="spnMake" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row">
+                        <div class="display-cell">Model</div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block model-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="cmbModel"></label
+                            ><select
+                              name="cmbModel"
+                              id="cmbModel"
+                              disabled="disabled"
+                              class="aspNetDisabled form-control drpClass select-box"
+                            >
+                              <option selected="selected" value="0">
+                                --Select Model--
+                              </option>
+                            </select>
+                          </div>
+                          <span id="spnModel" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row">
+                        <div class="display-cell">Version</div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block version-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="cmbVersion"></label
+                            ><select
+                              name="cmbVersion"
+                              id="cmbVersion"
+                              disabled="disabled"
+                              class="aspNetDisabled form-control drpClass select-box"
+                            >
+                              <option selected="selected" value="0">
+                                --Select Version--
+                              </option>
+                            </select>
+                          </div>
+                          <span id="spnVersion" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row">
+                        <div class="display-cell">City</div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block city-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="cmbValuationCity"></label
+                            ><select
+                              name="cmbValuationCity"
+                              id="cmbValuationCity"
+                              class="form-control drpClass select-box"
+                            >
+                              <option value="0">--Select City--</option>
+                              <option value="1">Mumbai</option>
+                              <option value="2">Bangalore</option>
+                              <option value="9">Kochi</option>
+                              <option value="10">New Delhi</option>
+                              <option value="12">Pune</option>
+                              <option value="13">Navi Mumbai</option>
+                              <option value="40">Thane</option>
+                              <option value="105">Hyderabad</option>
+                              <option value="128">Ahmedabad</option>
+                              <option value="176">Chennai</option>
+                              <option value="198">Kolkata</option>
+                              <option value="224">Noida</option>
+                              <option value="225">Ghaziabad</option>
+                              <option value="244">Chandigarh</option>
+                              <option value="246">Gurgaon</option>
+                              <option value="273">Faridabad</option>
+                              <option value="-1">Other</option>
+                            </select>
+                          </div>
+                          <span id="spnValueCity" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row select-state" id="selectState">
+                        <div class="dropdown-col display-cell">State</div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block other-state-selection"
+                          >
+                            <label for="cmbState"></label
+                            ><select
+                              name="cmbState"
+                              id="cmbState"
+                              class="form-control drpClass select-box"
+                            >
+                              <option value="0">--Select State--</option>
+                            </select>
+                          </div>
+                          <span id="spnState" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row city-by-state" id="cityByState">
+                        <div class="display-cell">City</div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block other-city-selection"
+                          >
+                            <label for="cmbCity"></label
+                            ><select
+                              name="cmbCity"
+                              id="cmbCity"
+                              class="aspNetDisabled form-control drpClass select-box"
+                            >
+                              <option value="0">--Select City--</option>
+                            </select>
+                          </div>
+                          <span id="spnCity" class="error"></span>
+                        </div>
+                      </div>
 
-                </select></div><span id="spnCity" class="error"></span></div></div>
-
-<div class="display-row"><div class="dropdown-col display-cell">No Of Owners</div><div class="display-cell"><div class="form-control-box inline-block owner-selection"><span class="select-box fa fa-angle-down"></span><label for="ddlOwners"></label><select name="ddlOwners" id="ddlOwners" class="form-control select-box" ><option value="0">--Select Owners--</option><option value="1">First owner</option><option value="2">Second owner</option><option value="3">Third owner</option><option value="4">Four or More owners</option></select></div><span id="spnOwners" class="error"></span></div></div><div class="display-row"><div class="display-cell">Kilometers</div><div class="display-cell"><div class="form-control-box inline-block city-selection"><span class="select-box fa fa-angle-down"></span><label for="txtKms"></label><input name="txtKms" type="text" id="txtKms" class="form-control txt-kms" placeholder="--Enter Kms driven--"  data-value="" ></div><span id="spnKms" class="error"></span></div></div><div class="display-row"><div class="display-cell">&nbsp;</div><div class="display-cell"><span  class="btn btn-orange btn-sm"
-id="valuation-result-btn"   onclick="onCheckValueClick()">Check
-Value</span></div></div></div></form><div class="mid-box"><ul class="ul-arrow2"><li>Year of Manufacture e.g. 2005</li><li>Make, Model and Version e.g. Hyundai Accent GLS</li><li>The city in which the car was registered</li></ul></div></div></div></div></div><div class="valuation-result-section content-shadow hide"><div id="valLoadingImg" class="val-loading-img"><img src="https://imgd.aeplcdn.com/0x0/statics/loader.gif"alt="Loading..." /></div><div id="valuationResult" ></div><div class="clear"></div></div></div><div class="grid-4"><div class="inline-block ad-slot"><div class="text-right font11 text-medium-grey">Ad</div><div id="div-gpt-ad-1396440966236-0" data-load-immediate="false" class="add-slot-right"></div></div></div><div class="clear"></div><div class="faq-section-wrapper">
-<section class="faqSection"><div class="grid-12 margin-bottom30" ><div><h2 class="text-center margin-top20 margin-bottom30 special-skin-text" >Frequently Asked Questions</h2></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-What is Used Car Valuation?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-The price of any car over the years depreciates and is dependent upon various 
-factors that determine the resale value of the car. These factors range from year of purchase, make, model, 
-kilometers driven and overall condition of the car. Used car valuation incorporates all these factors into 
-the pricing model that takes into account data from millions of buyers & sellers of used cars on CarWale to 
-determine the most accurate price range for your car.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-Why is CarWale the best website for Used Car Valuation?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-CarWale is the best website to determine the value of your used car since we use data 
-from millions of genuine buyers & sellers across the country in our pricing models to determine the most accurate 
-prices for your used car. Also, we make sure that this data is updated regularly to have a more accurate picture 
-of your used car valuation.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-Do I have to pay or register for using Car Valuation tool?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-No, you do not have to register to use the Car Valuation tool. 
-The Used car price calculator is FREE to use.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-What are the popular cities for buying a second hand car?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-Popular cities in India to buy a second hand car are - <a href='/used/cars-in-mumbai/' title='Used Cars in Mumbai'>Mumbai</a>, <a href='/used/cars-in-bangalore/' title='Used Cars in Bangalore'>Bangalore</a>, <a href='/used/cars-in-delhi/' title='Used Cars in Delhi'>Delhi</a>, <a href='/used/cars-in-pune/' title='Used Cars in Pune'>Pune</a>, <a href='/used/cars-in-navi-mumbai/' title='Used Cars in Navi Mumbai'>Navi Mumbai</a>, <a href='/used/cars-in-hyderabad/' title='Used Cars in Hyderabad'>Hyderabad</a>, <a href='/used/cars-in-ahmedabad/' title='Used Cars in Ahmedabad'>Ahmedabad</a>, <a href='/used/cars-in-chennai/' title='Used Cars in Chennai'>Chennai</a>, <a href='/used/cars-in-kolkata/' title='Used Cars in Kolkata'>Kolkata</a>.
-Check them out <a href='/used/cars-for-sale/' title='Used Cars in '>here</a> at CarWale.
-</p></div></div>
-<p class="text-center special-skin-text  "><span class="viewMore margin-top20" ><span> View More FAQ </span><svg class="rotateFaqArrow90" width="12px" height="12px" viewBox="0 0 16 16" fill="#066da4" tabindex="-1" focusable="false" aria-hidden="true" role="img"><path d="M4.59 15.8a1 1 0 01-.69-.29 1 1 0 010-1.37L10 8 3.9 1.86a1 1 0 010-1.37 1 1 0 011.38 0l6.82 6.82a1 1 0 010 1.38l-6.82 6.82a1 1 0 01-.69.29z"></path></svg></span></p>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-What is the starting price of a used   car in India?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-89681 used cars are available in India starting from Rs. 22,500.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-What are the popular second hand car models?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-<a href='/used/maruti-suzuki-swift-cars-in-pune/' title='Used Maruti Suzuki Swift Cars in Pune'>Swift</a>, <a href='/used/maruti-suzuki-wagon-r-cars-in-pune/' title='Used Maruti Suzuki Wagon R Cars in Pune'>Wagon R</a>, <a href='/used/honda-city-cars-in-pune/' title='Used Honda City Cars in Pune'>City</a>, <a href='/used/maruti-suzuki-alto-cars-in-pune/' title='Used Maruti Suzuki Alto Cars in Pune'>Alto</a>, <a href='/used/maruti-suzuki-alto-800-cars-in-bankura/' title='Used Maruti Suzuki Alto 800 Cars in Bankura'>Alto 800</a>, <a href='/used/maruti-suzuki-baleno-cars-in-pune/' title='Used Maruti Suzuki Baleno Cars in Pune'>Baleno</a>, <a href='/used/maruti-suzuki-swift-dzire-cars-in-pune/' title='Used Maruti Suzuki Swift DZire Cars in Pune'>Swift DZire</a>, <a href='/used/hyundai-i10-cars-in-anantapur/' title='Used Hyundai i10 Cars in Anantapur'>i10</a>, <a href='/used/hyundai-grand-i10-cars-in-mumbai/' title='Used Hyundai Grand i10 Cars in Mumbai'>Grand i10</a>, <a href='/used/hyundai-elite-i20-cars-in-nashik/' title='Used Hyundai Elite i20 Cars in Nashik'>Elite i20</a> are the popular second hand car models in . Explore them all <a href='/used/cars-for-sale/' title='Used Cars in '>here</a> at CarWale.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-What are the popular used car brands?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-<a href='/used/hyundai-cars/' title='Used Hyundai in '>Hyundai</a>, <a href='/used/mercedes-benz-cars/' title='Used Mercedes-Benz in '>Mercedes-Benz</a> are the popular used car brands in . Explore them all <a href='/used/cars-for-sale/' title='Used Cars in '>here</a> at CarWale.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-I&#x2019;ve never sold a second-hand car online. So how exactly do I find the value of my used car?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-One simply needs to fill out the form on this page with details such as year/month of manufacture,
-make, model, variant, city of registration, number of owners, and kilometres driven.
-Once this is done, the price of the old car will be depicted on the page in a ‘range’ format depending on its condition.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-Since my used car is in excellent condition with very few kilometres driven; will I get a better price?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-Yes, if your used car is in excellent condition, one can expect a better price than what is mentioned on the page.
-Alternatively, if it is in a bad state, one can expect a lower price.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-I get a lot of spam. Do I need to register or share my personal details?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-There’s no need. You can rest assured that none of your personal details is required for a price quotation.
-Only some important car specifics are required for us to fetch you the right price. It’s only after you decide to <a href='/used/sell-car/?originid=18'>sell your used car</a>
-on CarWale that some essential details are necessary to take the deal ahead.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-What is my next step if I like the price depicted?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-One needs to click on the ‘<a href='/used/sell-car/?originid=18'>Sell Your Car’</a> button below the price shown,
-fill out the form that follows with your basic details, along with some pictures/details of the car.
-That’s just about it!
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-Wait, is this a chargeable service? Do I need to pay to sell my car at CarWale?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-No, this is one of the bigger highlights of our service.
-There is no charge and hence you do not need to pay anything to sell your car on CarWale.
-</p></div></div>
-<div class="faqWrapper hide"><div class="leftfloat content-box-shadow carDescWrapper question"><h3 class="leftfloat faq-question-heading" data-testing-id = "faq-question">
-Actually, do you think buying a used or second hand car online is a good idea?
-</h3><span id="upDownArrow" class="rightfloat fa fa-angle-down"></span></div><div class="answer hide" data-testing-id = "faq-answer"><p>
-Yes, indeed. You don’t really need to invest in a new car for a hassle-free drive anymore.
-CarWale has you covered in that respect. With the benefits you can avail of with us,
-along with an exhaustive catalogue of  <a href='/used/cars-for-sale/'>second hand cars</a>,
-we will get you mobile in no time and with almost no scepticism.
-</p></div></div>
-</div></section><script   type="text/javascript"   src="https://stc.aeplcdn.com/staticminv2/js/used/faqs-ed4faf7ecc.js"  defer crossorigin="anonymous"></script>			</div></div></section><div class="clear"></div></body>
-
-
+                      <div class="display-row">
+                        <div class="dropdown-col display-cell">
+                          No Of Owners
+                        </div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block owner-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="ddlOwners"></label
+                            ><select
+                              name="ddlOwners"
+                              id="ddlOwners"
+                              class="form-control select-box"
+                            >
+                              <option value="0">--Select Owners--</option>
+                              <option value="1">First owner</option>
+                              <option value="2">Second owner</option>
+                              <option value="3">Third owner</option>
+                              <option value="4">Four or More owners</option>
+                            </select>
+                          </div>
+                          <span id="spnOwners" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row">
+                        <div class="display-cell">Kilometers</div>
+                        <div class="display-cell">
+                          <div
+                            class="form-control-box inline-block city-selection"
+                          >
+                            <span class="select-box fa fa-angle-down"></span
+                            ><label for="txtKms"></label
+                            ><input
+                              name="txtKms"
+                              type="text"
+                              id="txtKms"
+                              class="form-control txt-kms"
+                              placeholder="--Enter Kms driven--"
+                              data-value=""
+                            />
+                          </div>
+                          <span id="spnKms" class="error"></span>
+                        </div>
+                      </div>
+                      <div class="display-row">
+                        <div class="display-cell">&nbsp;</div>
+                        <div class="display-cell">
+                          <span
+                            class="btn btn-orange btn-sm"
+                            id="valuation-result-btn"
+                            onclick="onCheckValueClick()"
+                            >Check Value</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="mid-box">
+                    <ul class="ul-arrow2">
+                      <li>Year of Manufacture e.g. 2005</li>
+                      <li>Make, Model and Version e.g. Hyundai Accent GLS</li>
+                      <li>The city in which the car was registered</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="valuation-result-section content-shadow hide">
+            <div id="valLoadingImg" class="val-loading-img">
+              <img
+                src="https://imgd.aeplcdn.com/0x0/statics/loader.gif"
+                alt="Loading..."
+              />
+            </div>
+            <div id="valuationResult"></div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="grid-4">
+          <div class="inline-block ad-slot">
+            <div class="text-right font11 text-medium-grey">Ad</div>
+            <div
+              id="div-gpt-ad-1396440966236-0"
+              data-load-immediate="false"
+              class="add-slot-right"
+            ></div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="faq-section-wrapper">
+          <section class="faqSection">
+            <div class="grid-12 margin-bottom30">
+              <div>
+                <h2
+                  class="text-center margin-top20 margin-bottom30 special-skin-text"
+                >
+                  Frequently Asked Questions
+                </h2>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    What is Used Car Valuation?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    The price of any car over the years depreciates and is
+                    dependent upon various factors that determine the resale
+                    value of the car. These factors range from year of purchase,
+                    make, model, kilometers driven and overall condition of the
+                    car. Used car valuation incorporates all these factors into
+                    the pricing model that takes into account data from millions
+                    of buyers & sellers of used cars on CarWale to determine the
+                    most accurate price range for your car.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    Why is CarWale the best website for Used Car Valuation?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    CarWale is the best website to determine the value of your
+                    used car since we use data from millions of genuine buyers &
+                    sellers across the country in our pricing models to
+                    determine the most accurate prices for your used car. Also,
+                    we make sure that this data is updated regularly to have a
+                    more accurate picture of your used car valuation.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    Do I have to pay or register for using Car Valuation tool?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    No, you do not have to register to use the Car Valuation
+                    tool. The Used car price calculator is FREE to use.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    What are the popular cities for buying a second hand car?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    Popular cities in India to buy a second hand car are -
+                    <a href="/used/cars-in-mumbai/" title="Used Cars in Mumbai"
+                      >Mumbai</a
+                    >,
+                    <a
+                      href="/used/cars-in-bangalore/"
+                      title="Used Cars in Bangalore"
+                      >Bangalore</a
+                    >,
+                    <a href="/used/cars-in-delhi/" title="Used Cars in Delhi"
+                      >Delhi</a
+                    >,
+                    <a href="/used/cars-in-pune/" title="Used Cars in Pune"
+                      >Pune</a
+                    >,
+                    <a
+                      href="/used/cars-in-navi-mumbai/"
+                      title="Used Cars in Navi Mumbai"
+                      >Navi Mumbai</a
+                    >,
+                    <a
+                      href="/used/cars-in-hyderabad/"
+                      title="Used Cars in Hyderabad"
+                      >Hyderabad</a
+                    >,
+                    <a
+                      href="/used/cars-in-ahmedabad/"
+                      title="Used Cars in Ahmedabad"
+                      >Ahmedabad</a
+                    >,
+                    <a
+                      href="/used/cars-in-chennai/"
+                      title="Used Cars in Chennai"
+                      >Chennai</a
+                    >,
+                    <a
+                      href="/used/cars-in-kolkata/"
+                      title="Used Cars in Kolkata"
+                      >Kolkata</a
+                    >. Check them out
+                    <a href="/used/cars-for-sale/" title="Used Cars in "
+                      >here</a
+                    >
+                    at CarWale.
+                  </p>
+                </div>
+              </div>
+              <p class="text-center special-skin-text">
+                <span class="viewMore margin-top20"
+                  ><span> View More FAQ </span
+                  ><svg
+                    class="rotateFaqArrow90"
+                    width="12px"
+                    height="12px"
+                    viewBox="0 0 16 16"
+                    fill="#066da4"
+                    tabindex="-1"
+                    focusable="false"
+                    aria-hidden="true"
+                    role="img"
+                  >
+                    <path
+                      d="M4.59 15.8a1 1 0 01-.69-.29 1 1 0 010-1.37L10 8 3.9 1.86a1 1 0 010-1.37 1 1 0 011.38 0l6.82 6.82a1 1 0 010 1.38l-6.82 6.82a1 1 0 01-.69.29z"
+                    ></path></svg
+                ></span>
+              </p>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    What is the starting price of a used car in India?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    89681 used cars are available in India starting from Rs.
+                    22,500.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    What are the popular second hand car models?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    <a
+                      href="/used/maruti-suzuki-swift-cars-in-pune/"
+                      title="Used Maruti Suzuki Swift Cars in Pune"
+                      >Swift</a
+                    >,
+                    <a
+                      href="/used/maruti-suzuki-wagon-r-cars-in-pune/"
+                      title="Used Maruti Suzuki Wagon R Cars in Pune"
+                      >Wagon R</a
+                    >,
+                    <a
+                      href="/used/honda-city-cars-in-pune/"
+                      title="Used Honda City Cars in Pune"
+                      >City</a
+                    >,
+                    <a
+                      href="/used/maruti-suzuki-alto-cars-in-pune/"
+                      title="Used Maruti Suzuki Alto Cars in Pune"
+                      >Alto</a
+                    >,
+                    <a
+                      href="/used/maruti-suzuki-alto-800-cars-in-bankura/"
+                      title="Used Maruti Suzuki Alto 800 Cars in Bankura"
+                      >Alto 800</a
+                    >,
+                    <a
+                      href="/used/maruti-suzuki-baleno-cars-in-pune/"
+                      title="Used Maruti Suzuki Baleno Cars in Pune"
+                      >Baleno</a
+                    >,
+                    <a
+                      href="/used/maruti-suzuki-swift-dzire-cars-in-pune/"
+                      title="Used Maruti Suzuki Swift DZire Cars in Pune"
+                      >Swift DZire</a
+                    >,
+                    <a
+                      href="/used/hyundai-i10-cars-in-anantapur/"
+                      title="Used Hyundai i10 Cars in Anantapur"
+                      >i10</a
+                    >,
+                    <a
+                      href="/used/hyundai-grand-i10-cars-in-mumbai/"
+                      title="Used Hyundai Grand i10 Cars in Mumbai"
+                      >Grand i10</a
+                    >,
+                    <a
+                      href="/used/hyundai-elite-i20-cars-in-nashik/"
+                      title="Used Hyundai Elite i20 Cars in Nashik"
+                      >Elite i20</a
+                    >
+                    are the popular second hand car models in . Explore them all
+                    <a href="/used/cars-for-sale/" title="Used Cars in "
+                      >here</a
+                    >
+                    at CarWale.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    What are the popular used car brands?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    <a href="/used/hyundai-cars/" title="Used Hyundai in "
+                      >Hyundai</a
+                    >,
+                    <a
+                      href="/used/mercedes-benz-cars/"
+                      title="Used Mercedes-Benz in "
+                      >Mercedes-Benz</a
+                    >
+                    are the popular used car brands in . Explore them all
+                    <a href="/used/cars-for-sale/" title="Used Cars in "
+                      >here</a
+                    >
+                    at CarWale.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    I&#x2019;ve never sold a second-hand car online. So how
+                    exactly do I find the value of my used car?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    One simply needs to fill out the form on this page with
+                    details such as year/month of manufacture, make, model,
+                    variant, city of registration, number of owners, and
+                    kilometres driven. Once this is done, the price of the old
+                    car will be depicted on the page in a ‘range’ format
+                    depending on its condition.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    Since my used car is in excellent condition with very few
+                    kilometres driven; will I get a better price?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    Yes, if your used car is in excellent condition, one can
+                    expect a better price than what is mentioned on the page.
+                    Alternatively, if it is in a bad state, one can expect a
+                    lower price.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    I get a lot of spam. Do I need to register or share my
+                    personal details?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    There’s no need. You can rest assured that none of your
+                    personal details is required for a price quotation. Only
+                    some important car specifics are required for us to fetch
+                    you the right price. It’s only after you decide to
+                    <a href="/used/sell-car/?originid=18">sell your used car</a>
+                    on CarWale that some essential details are necessary to take
+                    the deal ahead.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    What is my next step if I like the price depicted?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    One needs to click on the ‘<a
+                      href="/used/sell-car/?originid=18"
+                      >Sell Your Car’</a
+                    >
+                    button below the price shown, fill out the form that follows
+                    with your basic details, along with some pictures/details of
+                    the car. That’s just about it!
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    Wait, is this a chargeable service? Do I need to pay to sell
+                    my car at CarWale?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    No, this is one of the bigger highlights of our service.
+                    There is no charge and hence you do not need to pay anything
+                    to sell your car on CarWale.
+                  </p>
+                </div>
+              </div>
+              <div class="faqWrapper hide">
+                <div
+                  class="leftfloat content-box-shadow carDescWrapper question"
+                >
+                  <h3
+                    class="leftfloat faq-question-heading"
+                    data-testing-id="faq-question"
+                  >
+                    Actually, do you think buying a used or second hand car
+                    online is a good idea?
+                  </h3>
+                  <span
+                    id="upDownArrow"
+                    class="rightfloat fa fa-angle-down"
+                  ></span>
+                </div>
+                <div class="answer hide" data-testing-id="faq-answer">
+                  <p>
+                    Yes, indeed. You don’t really need to invest in a new car
+                    for a hassle-free drive anymore. CarWale has you covered in
+                    that respect. With the benefits you can avail of with us,
+                    along with an exhaustive catalogue of
+                    <a href="/used/cars-for-sale/">second hand cars</a>, we will
+                    get you mobile in no time and with almost no scepticism.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <script
+            type="text/javascript"
+            src="https://stc.aeplcdn.com/staticminv2/js/used/faqs-ed4faf7ecc.js"
+            defer
+            crossorigin="anonymous"
+          ></script>
+        </div>
+      </div>
+    </section>
+    <div class="clear"></div>
+  </body>
 </html>
